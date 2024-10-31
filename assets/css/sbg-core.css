@@ -1,0 +1,123 @@
+
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qbc67c');
+  src:  url('fonts/icomoon.eot?qbc67c#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qbc67c') format('truetype'),
+    url('fonts/icomoon.woff?qbc67c') format('woff'),
+    url('fonts/icomoon.svg?qbc67c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+  content: "\ea32";
+}
+.icon-arrow-down:before {
+  content: "\ea36";
+}
+
+.signalbox-widget{
+    width:100%;
+    background:#333;
+    text-align: center;
+    color:#fff;
+    padding:0.6em;
+}
+.signalbox-widget h3,.signalbox-widget h5{
+    color:#fff;
+}
+.signalbox-widget h5{
+    font-size: 1.1em;
+    font-style: italic;
+    color: #b4a4a4;
+    font-weight: bold;
+}
+.signalbox-widget h3{
+  font-size: 1.3em;
+}
+.signalbox-widget h3 i.fa-arrow-up{
+      background: -webkit-linear-gradient(#0a7a00, #40e00c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.signalbox-widget h3 i.fa-arrow-down{
+      background: -webkit-linear-gradient(#ec1728, #a00606);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.signalbox-widget .btn-sbg{
+      color: #338d00;
+    text-decoration: none !important;
+    border: 1px solid #338d00;
+    padding: 0.1em;
+    border-radius: 8px;
+    font-size: 1.2em;
+    width: 100%;
+    display: block;
+}
+.signalbox-widget .btn-sbg:hover{
+color:#fff;
+    background: #338d00;
+}
+.signalbox-list-container{
+    overflow: hidden;
+}
+.sbg-sm-20{
+    width:19%;
+    float:left;
+    margin:3px;
+}
+#sbglist_result_emp p,#sbglist_result_emp h3,#sbglist_result_emp h5{
+    margin:0;
+}
+#sbglist_result_emp >div {
+    margin-bottom:10px;
+}
+#sbglist_result_emp .btn-sbg.delete{
+    border-color:red;
+    color:red;
+}
+#sbglist_result_emp .btn-sbg.delete:hover{
+   background: red;
+    color:#fff;
+}
+.signalbox-generator label{
+    display: block;;
+    clear: both;
+}
+.signalbox-generator input,.signalbox-generator select{
+    width:100%;
+    padding:5px;
+}
+.signalbox-generator .sbg-50{
+    width:48%;
+    margin:1%;
+    float: left;
+}
+.signalbox-generator .sbg-100{
+    width:98%;
+    margin:1%;
+}.signalbox-generator .sbg-btn{
+    width:100%;
+    margin-top:10px;
+}
